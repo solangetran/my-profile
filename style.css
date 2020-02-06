@@ -1,0 +1,94 @@
+/*Colors and font*/
+
+body{
+	background-color: rgb(240, 218, 218);
+	color:rgb(50, 50, 50);
+	font-family: 'Lora', serif;
+	font-size: 16px;
+} 
+h1, h2{
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	color: rgb(209, 117, 174);
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+h2{
+	color: rgb(100, 102, 224);
+	font-size: 25px;
+	font-weight: 500;
+}
+a{
+	text-decoration: none;
+	color:rgb(209, 117, 174);
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+a:hover{
+	color: royalblue;
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container{
+		width:600px;
+		margin:10px auto;
+	}
+}
+@media (max-width: 500px){
+	.container{
+		width: 500px;
+		margin:10px auto;
+	}
+}
+.pink-card{
+	background-color: rgb(223, 183, 205);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+}
+.image-circle{
+	border-radius: 50%;
+}
+.btn
+{
+	border: 1px solid white;
+	border-radius: 4px;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+.btn-one
+{
+    background-color: rgb(218, 105, 171);
+	font-family: "Roboto", sans-serif;
+	margin-top: 40px;
+}
+.btn-one:hover{
+	background-color: rgb(102, 132, 223);
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px
+}
+.list-inline i{
+	font-size: 50px;
+	margin: 25px;
+}
